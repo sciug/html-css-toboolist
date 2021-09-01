@@ -6,7 +6,7 @@
 }
 body{
     background-color:#f6f8f9;
-    color: 575b64;
+    color:#575b64;
 }
 
 
@@ -88,6 +88,14 @@ body{
 
 }
 
+.info-title{
+    margin-top: 2rem;
+}
+
+.item{margin-top: 2rem;}
+
+
+
 
 
 
@@ -100,21 +108,34 @@ body{
     margin-left: .8rem;
 }
 
-.check{
+.check, .cross{
     color:#a7dcd0;
-    border: 1px solid #a7dcd0;
+    border: 2px solid #a7dcd0;
     padding:0.1em 0.3em;
     border-radius: 50%;
     font-size:0.9rem;
     margin-right: .5rem;
 }
-
-.editorial{
-    background: #47adf1;
-    border-radius: 50px;
-    padding: .4rem 1rem;
-    color:white;
-    font-size: .8rem;
-    margin-left: 1rem;
+.cross{
+    color:#ee6a62;
+    border: 2px solid #ee6a62;
 
 }
+
+.editorial, .goals, .recruiting, .mobile, .website, .sales
+{
+    background: #47adf1;
+    border-radius: 12px;
+    padding: .4rem 1rem;
+    color:white;
+    font-size: .7rem;
+    margin-left: 0.2rem;
+    letter-spacing: 0.1em;
+
+}
+
+.goals{background-color: #9c72e4;}
+.recruiting{background-color: #64c0a9;}
+.mobile{background-color:#f29e33;}
+.website{background-color: #d863a1;}
+.sales{background-color: #b0c926;}
