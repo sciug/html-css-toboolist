@@ -8,6 +8,11 @@ body{
     background-color:#f6f8f9;
 }
 
+
+/* HEADER */
+
+
+
 #site-header{
     background-color: white;
 }
@@ -30,4 +35,20 @@ body{
 .logo{
     vertical-align: bottom;
 
+}
+
+
+/* header */
+
+
+
+
+/* MAIN */
+
+#site-main{
+    width:60%;
+    margin:5rem auto;
+    background-color: white;
+    padding:1rem 2rem;
+    border-radius: 5px;
 }
