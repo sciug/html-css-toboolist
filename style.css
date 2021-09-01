@@ -6,6 +6,7 @@
 }
 body{
     background-color:#f6f8f9;
+    color: 575b64;
 }
 
 
@@ -48,13 +49,17 @@ body{
 #site-main{
     width:60%;
     margin:5rem auto;
-    background-color: white;
-    padding:1rem 2rem;
     border-radius: 5px;
 }
 
 
 /* BUTTON */
+.buttons{
+    margin-bottom:3px;
+    padding:1rem 2.5rem;
+    background-color: white;
+
+}
 
 .btn{
     font-family: 'Roboto', sans-serif;
@@ -72,4 +77,44 @@ body{
     border: none;
     color: white;
     background-color:#47adf1 ;
+}
+
+
+
+.info{
+    background-color: white;
+    padding:1rem 2.5rem;
+
+
+}
+
+
+
+
+.arrow{
+    font-size: 1.8rem;
+    
+}
+
+.item{
+    margin-left: .8rem;
+}
+
+.check{
+    color:#a7dcd0;
+    border: 1px solid #a7dcd0;
+    padding:0.1em 0.3em;
+    border-radius: 50%;
+    font-size:0.9rem;
+    margin-right: .5rem;
+}
+
+.editorial{
+    background: #47adf1;
+    border-radius: 50px;
+    padding: .4rem 1rem;
+    color:white;
+    font-size: .8rem;
+    margin-left: 1rem;
+
 }
