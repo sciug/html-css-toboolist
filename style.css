@@ -84,6 +84,7 @@ body{
 .info{
     background-color: white;
     padding:1rem 2.5rem;
+    font-weight: 600;
 
 
 }
@@ -92,21 +93,24 @@ body{
     margin-top: 2rem;
 }
 
-.item{margin-top: 2rem;}
-
-
-
 
 
 
 .arrow{
     font-size: 1.8rem;
+    vertical-align: text-top;
     
 }
 
 .item{
+    margin-top: 2rem;
     margin-left: .8rem;
 }
+
+.first-item{
+    margin-top:.5rem ;
+}
+
 
 .check, .cross{
     color:#a7dcd0;
@@ -126,11 +130,12 @@ body{
 {
     background: #47adf1;
     border-radius: 12px;
-    padding: .4rem 1rem;
+    padding: .4rem .8rem;
     color:white;
     font-size: .7rem;
     margin-left: 0.2rem;
     letter-spacing: 0.1em;
+    font-weight: 400;
 
 }
 
