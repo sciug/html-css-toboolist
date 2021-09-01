@@ -52,3 +52,24 @@ body{
     padding:1rem 2rem;
     border-radius: 5px;
 }
+
+
+/* BUTTON */
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    background-color: white;
+    color: #d6dade;
+    border: 1px solid #d6dade;
+    margin-right:.2rem;
+    font-size: 0.7rem;
+}
+
+.color-btn{
+    border: none;
+    color: white;
+    background-color:#47adf1 ;
+}
