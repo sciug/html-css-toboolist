@@ -56,8 +56,10 @@ body{
 /* BUTTON */
 .buttons{
     margin-bottom:3px;
-    padding:1rem 2.5rem;
+    padding:.7rem 2.5rem;
     background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
@@ -81,10 +83,18 @@ body{
 
 
 
+
+
+/* INFO */
+
+
+
 .info{
     background-color: white;
     padding:1rem 2.5rem;
     font-weight: 600;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 
 }
@@ -102,6 +112,9 @@ body{
     
 }
 
+
+
+
 .item{
     margin-top: 2rem;
     margin-left: .8rem;
@@ -111,6 +124,12 @@ body{
     margin-top:.5rem ;
 }
 
+
+
+
+
+
+/* CHECK & CROSS */
 
 .check, .cross{
     color:#a7dcd0;
@@ -125,6 +144,18 @@ body{
     border: 2px solid #ee6a62;
 
 }
+
+/* CHECK & CROSS */
+
+
+
+
+
+
+
+
+/* COLOR ACCENT */
+
 
 .editorial, .goals, .recruiting, .mobile, .website, .sales
 {
@@ -144,3 +175,6 @@ body{
 .mobile{background-color:#f29e33;}
 .website{background-color: #d863a1;}
 .sales{background-color: #b0c926;}
+
+
+/* COLOR ACCENT */
