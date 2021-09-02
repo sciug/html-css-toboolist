@@ -31,10 +31,12 @@ body{
     letter-spacing: 0.1rem;
     font-weight: 800;
     color: #0a1e35;
+    vertical-align: middle;
+
 }
 
 .logo{
-    vertical-align: bottom;
+    vertical-align: middle;
 
 }
 
@@ -50,16 +52,14 @@ body{
     width:60%;
     margin:5rem auto;
     border-radius: 5px;
+    background-color: white;
 }
 
 
 /* BUTTON */
 .buttons{
-    margin-bottom:3px;
-    padding:.7rem 2.5rem;
-    background-color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    padding:.7rem 2.5rem;   
+    border-bottom: 2px solid #f6f8f9;
 
 }
 
